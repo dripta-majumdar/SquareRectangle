@@ -1,5 +1,5 @@
 import java.util.*;
-class Employee{
+class Employeee{
     private String name;
     private long Id;
 
@@ -18,7 +18,7 @@ class Employee{
 }
 public class Getters_Setters {
     public static void main(String[] args){
-        Employee dripta= new Employee();
+        Employeee dripta= new Employeee();
         dripta.setName("DRIPTA MAJUMDAR");
         System.out.println("The Name is:"+dripta.getName());
         dripta.setId(11900121);
